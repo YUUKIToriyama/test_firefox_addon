@@ -1,2 +1,2 @@
-# test_firefox_addon
-Firefoxアドオンの練習
+# YUUKIToriyama/test_firefox_addon
+Practice for firefox addon

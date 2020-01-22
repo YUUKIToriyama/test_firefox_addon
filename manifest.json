@@ -9,12 +9,27 @@
 		"96": "icons/icon-96.png",
 		"192": "icons/icon-192.png"
 	},
+	"background": {
+		"scripts": [
+			"background.js"
+		]
+	},
 	"permissions": [
-		"activeTab"
+		"activeTab",
+		"notifications"
 	],
 	"browser_action": {
 		"default_icon": "icons/icon-48.png",
-		"default_title": "test",
-		"default_popup": "popup/index.html"
+		"default_title": "Popup",
+		"default_popup": "popup/index.html",
+		"browser_style": true
+	},
+	"commands": {
+		"_execute_browser_action": {
+			"suggested_key": {
+				"default": "Alt+Shift+U"
+			},
+			"description": "open the popup"
+		}
 	}
 }
