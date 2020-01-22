@@ -1,25 +1,20 @@
 {
-
-  "manifest_version": 2,
-  "name": "gazou_nukidashi",
-  "version": "1.0",
-
-  "description": "Addon Sample ytoriyama",
-  "homepage_url": "http://torisfactory.com",
-
-  "icons": {
-    "48": "icons/a.png",
-    "96":  "icons/b.png"
-  },
-
-  "permissions": [
-    "activeTab"
-  ],
-
-  "browser_action": {
-    "default_icon": "icons/b.png",
-    "default_title": "test",
-    "default_popup": "popup/index.html"
-  }
-	
+	"manifest_version": 2,
+	"name": "AddonSample",
+	"version": "0.9",
+	"description": "myAddon",
+	"homepage_url": "https://yuukitoriyama.github.io/",
+	"icons": {
+		"48": "icons/icon-48.png",
+		"96": "icons/icon-96.png",
+		"192": "icons/icon-192.png"
+	},
+	"permissions": [
+		"activeTab"
+	],
+	"browser_action": {
+		"default_icon": "icons/icon-48.png",
+		"default_title": "test",
+		"default_popup": "popup/index.html"
+	}
 }
